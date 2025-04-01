@@ -1,0 +1,29 @@
+.backG {
+    background: linear-gradient(90deg, #00c4cc, #5a32fa, #7d2ae8);
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+#todoBox {
+    display: flex;
+    align-items: center;
+    background-color: #f7e7e7;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#Logo {
+    margin-top: 50px;
+}
+
+#btn {
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: px;
+}
