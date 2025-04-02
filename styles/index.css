@@ -3,7 +3,21 @@
     padding-bottom: 64px;
     padding-top: 64px;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
 
+
+#Logo {
+    margin-top: 50px;
+}
 .outerBox {
     background: rgb(218, 218, 218);
     padding: 20px;
@@ -13,16 +27,25 @@
     text-align: center;
 }
 
-#Logo {
-    margin-top: 50px;
+input {
+    width: 65%;
+    padding: 10px;
+    margin-right: 5px;
+    border-style: none;
+    
 }
+
 
 #btn {
     border: none;
     outline: none;
-    padding: 16px 20px;
+    padding: 5px 16px;
     background-color: #000000;
     border-radius: 50%;
     color: aliceblue;
-    font-size: px;
+    font-size: 30px;
+    font-weight:900
+}
+#btn:hover {
+    background-color: #d42222;
 }
