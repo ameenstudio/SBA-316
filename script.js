@@ -1,6 +1,6 @@
-let input=document.getElementById('inputF')
-let myTodolist
-
+let outerBox = document.querySelector('outerBox')
+let todoInput = document.querySelector('todoInput')
+let todoList = document.getElementById('todoList')
 
 
 function createListItems(, num) {

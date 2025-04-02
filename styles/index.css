@@ -4,14 +4,13 @@
     padding-top: 64px;
 }
 
-#todoBox {
-    display: flex;
-    align-items: center;
-    background-color: #f7e7e7;
-    width: 400px;
-    height: 600px;
-    margin: auto;
-    border-radius: 15px;
+.outerBox {
+    background: rgb(218, 218, 218);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
 }
 
 #Logo {
