@@ -36,16 +36,38 @@ input {
 }
 
 
-#btn {
+button {
     border: none;
     outline: none;
     padding: 5px 16px;
     background-color: #000000;
     border-radius: 50%;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight:900
 }
-#btn:hover {
+button:hover {
     background-color: #d42222;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: large;
+}
+li.completed {
+    text-decoration: line-through;
+    color: #f80b0b;
 }
