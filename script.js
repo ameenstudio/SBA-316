@@ -1,6 +1,12 @@
-alert('Welcome to the minimaList');
+let userName = window.prompt("What's your name?")
+if (userName) {
+  window.alert(`Nice to meet you, ${userName}! Let's get started on your tasks.`);
+} else {
+  window.alert("No worries, let's get started on your tasks!")
+}
+
 let outerBox = document.querySelector('.outerBox')
-let todoInput = document.querySelector('#todoInput')
+let todoInput = document.querySelector('#todoInput');
 let todoList = document.getElementById('todoList')
 let todoForm = document.getElementById('todoForm')
 let logo= document.createElement('img')
