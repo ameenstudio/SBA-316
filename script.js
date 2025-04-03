@@ -4,7 +4,9 @@ let todoInput = document.querySelector('#todoInput')
 let todoList = document.getElementById('todoList')
 let todoForm = document.getElementById('todoForm')
 let logo= document.createElement('img')
-
+logo.src='./imges/Logo.png'
+logo.classList.add('logo');
+outerBox.insertBefore(logo, outerBox.firstChild);
 
 
 
