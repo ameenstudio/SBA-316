@@ -14,12 +14,15 @@ logo.src='./imges/Logo.png'
 logo.classList.add('logo');
 outerBox.insertBefore(logo, outerBox.firstChild);
 
+// if (todoInput.value.length < 3) {}
+//    not quite right 
 
 
 
 
 todoForm.addEventListener("submit", (event) => {
     event.preventDefault();
+    
     addTodo(todoInput.value);
     todoInput.value = "";
 });
@@ -31,6 +34,9 @@ function addTodo(task) {
 
     let li = document.createElement("li")
     li.textContent = task; 
+
+    
+
 
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "x"; // Setting the text of the button
