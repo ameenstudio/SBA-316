@@ -1,4 +1,10 @@
+minimaLis a simple, user-friendly application designed to help you organize your tasks efficiently. This app allows you to add, manage, and track your tasks dynamically while ensuring a smooth and interactive experience.
+Interactive Task List:
 
+    Mark tasks as completed by clicking on them.
+
+    Remove tasks using a dedicated delete button.
+    
 // I created and designed this logo.
 1. What could you have done differently during the planning stages of your project to make the execution easier? 
 
