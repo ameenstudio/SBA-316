@@ -71,3 +71,6 @@ li.completed {
     text-decoration: line-through;
     color: #f80b0b;
 }
+.logo{
+    width: 200px;
+}

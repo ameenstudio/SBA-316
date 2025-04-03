@@ -3,6 +3,10 @@ let outerBox = document.querySelector('.outerBox')
 let todoInput = document.querySelector('#todoInput')
 let todoList = document.getElementById('todoList')
 let todoForm = document.getElementById('todoForm')
+let logo= document.createElement('img')
+
+
+
 
 
 
