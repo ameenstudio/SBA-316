@@ -1,3 +1,5 @@
+
+// I created and designed this logo.
 1. What could you have done differently during the planning stages of your project to make the execution easier? 
 
 I could have spent more time making a step-by-step plan. This would have helped me avoid confusion and work faster. I also should have checked if I had all the tools I needed before starting.
