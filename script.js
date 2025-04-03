@@ -1,4 +1,4 @@
-
+alert('Welcome to the minimaList');
 let outerBox = document.querySelector('.outerBox')
 let todoInput = document.querySelector('#todoInput')
 let todoList = document.getElementById('todoList')
